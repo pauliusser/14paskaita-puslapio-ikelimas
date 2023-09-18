@@ -1,0 +1,94 @@
+body {
+	font-family: "Times New Roman", Times, serif;
+	margin: 0;
+}
+p {
+	margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+}
+.slogan-wrapper {
+	background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/6640.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	align-items: center;
+	justify-content: space-between;
+	padding: 120px 0;
+	box-sizing: border-box;
+}
+.slogan-wrapper p {
+	margin: 0;
+}
+.slogan-wrapper button {
+	border: 1px solid white;
+}
+.slogan {
+	font-size: 2.5rem;
+	font-weight: 700;
+	letter-spacing: 10px;
+	font-family: "Roboto", sans-serif;
+}
+
+button {
+	all: unset;
+	padding: 1rem 2rem;
+	border: 1px solid black;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+}
+button:hover {
+	cursor: pointer;
+}
+
+.page-wrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	gap: 50px;
+}
+.dash {
+	width: 50px;
+	border-bottom: 1px solid black;
+}
+.content {
+	height: 600px;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul li::before {
+	content: "⬤";
+	color: #5fca5f;
+	display: inline-block;
+	width: 2em;
+}
+.content button {
+	align-self: flex-start;
+}
+img {
+	object-fit: cover;
+}
+.content p,
+.content h6,
+.content ul {
+	color: rgb(163, 163, 163);
+}
